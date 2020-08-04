@@ -20,6 +20,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 
 ## Instalando programas básicos
+& cinst microsoft-windows-terminal
 & cinst notepadplusplus.install -Y
 & cinst winrar -Y
 
