@@ -12,7 +12,7 @@ mkdir temp_ubuntu
 cd temp_ubuntu
 
 # download Ubuntu
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing
+Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile Ubuntu.appx -UseBasicParsing
 
 # install wsl ubuntu
 Add-AppxPackage .\Ubuntu.appx
