@@ -43,3 +43,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 & cinst docker-compose -y
 & cinst docker-machine -y
 & cinst docker-desktop -y
+
+## Lightshot
+& cinst lightshot -y
