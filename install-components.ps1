@@ -46,3 +46,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 ## Lightshot
 & cinst lightshot -y
+
+## Spotify
+& cinst spotify -y
+
+## Windir stat
+& cinst windirstat -y
